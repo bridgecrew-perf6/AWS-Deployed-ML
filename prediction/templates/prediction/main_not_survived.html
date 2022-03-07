@@ -1,0 +1,12 @@
+{% block content %}
+<table style="background-color:#33475b">
+<h2>Titanic Survivor Prediction</h2>
+<form method="POST">
+    <table>
+        {{ form }}
+    </table>
+    {% csrf_token %}
+    <button type="submit">Predict</button>
+	<h2>The person is not survived!</h2>
+</form>
+{% endblock %}

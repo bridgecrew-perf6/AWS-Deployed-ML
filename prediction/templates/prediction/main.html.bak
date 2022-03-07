@@ -1,0 +1,43 @@
+{% block content %}
+<table style="background-color:#33475b">
+<h2>Titanic Survivor Prediction</h2>
+<form method="POST">
+    {% csrf_token %}
+    <label for="PassengerId">PassengerId: </label>
+	<input id="PassengerId" type="text" name="PassengerId">
+	
+	<label for="Pclass">Pclass: </label>
+	<input id="Pclass" type="text" name="Pclass">
+		
+	
+	<label for="Name">Name: </label>
+	<input id="Name" type="text" name="Name">
+	
+	<label for="Sex">Sex: </label>
+	<input id="Sex" type="text" name="Sex">
+	
+	<label for="Age">Age: </label>
+	<input id="Age" type="text" name="Age">
+	
+	<label for="SibSp">SibSp: </label>
+    <input id="SibSp" type="text" name="SibSp">
+	
+	<label for="Parch">Parch: </label>
+    <input id="Parch" type="text" name="Parch">
+	
+	<label for="Ticket">Ticket: </label>
+    <input id="Ticket" type="text" name="Ticket">
+	
+	<label for="Fare">Fare: </label>
+    <input id="Fare" type="text" name="Fare">
+	
+	<label for="Cabin">Cabin: </label>
+    <input id="Cabin" type="text" name="Cabin">
+	
+	<label for="Embarked">Embarked: </label>
+    <input id="Embarked" type="text" name="Embarked">
+	
+	
+    <button type="submit">Predict</button>
+</form>
+{% endblock %}
