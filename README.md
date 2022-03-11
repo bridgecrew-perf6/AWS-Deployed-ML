@@ -33,6 +33,7 @@ Note: I explained steps below as Turkish with images on <a href="https://medium.
 **2.2** After installing, open the application called PuTTygen from the windows search bar. After opening it, we need to find the key that we downloaded by clicking Load. Even if you go to the file where you downloaded the key, you may not see your key because it has a .pem extension. For this reason, you need to choose your key by changing the search option from *.ppk extension to *.*.
 
 **2.3** After importing the key, you can save your *.ppk file with the name you specified by clicking **Save private key** and then yes. I save my own key as titanic.ppk. Now, if we switch to the part of connecting to our server, we need to first open the PuTTy application.
+
 ![image](https://user-images.githubusercontent.com/45767042/157896448-f3e6bca2-7e69-4aa8-948e-314ce00332bc.png)
 
 **2.4** Here, we go back to the AWS site and click on the Instance ID link of our server that we have set up in the previous steps in the Instances section to obtain the IP address we need first.
